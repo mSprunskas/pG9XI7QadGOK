@@ -1,0 +1,10 @@
+version: '3.7'
+
+services:
+  php:
+    container_name: oxylabs_homework_php
+    image: php:7.4-cli-alpine
+    volumes:
+      - ./:/usr/src/app
+    working_dir: /usr/src/app
+    tty: true
