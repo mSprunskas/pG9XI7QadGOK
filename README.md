@@ -1,6 +1,6 @@
-#Crypto currency portfolio value calculator
+# Crypto currency portfolio value calculator
 
-##Prerequisites
+## Prerequisites
 
 - PHP 7.4 or later (no docker yet)
 - Sqlite3
